@@ -1,0 +1,24 @@
+button {
+    border-radius: 20%;
+    background-color: skyblue;
+    transition-duration: 2.2s;
+    transition-delay: 0.2s;
+    transition-property: width height;
+    height: 40px;
+    width: 150px;
+}
+button:hover {
+    background-color: black;
+    color: red;
+}
+button::after {
+    content: "😀";}    
+button::before {
+    content: "😀";
+  }
+  button:active{
+  width: 260px;
+  height: 60px;
+  color: darkorchid;
+  background-color: rgb(121, 177, 66);
+  }

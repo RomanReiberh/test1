@@ -1,0 +1,21 @@
+body{height: 2000px;
+width: auto;}
+.title {display: flex;; font-family: Georgia, 'Times New Roman', Times, serif;
+position: fixed; background-color: rgb(240, 97, 92); width: 100vw;
+margin-top: -7px; height: 78px;}
+.bobble{height: 80px;}
+.gas{width: 100vw;background-color: rgb(240, 97, 92);}
+.hero{width: 100vw;background-color: rgb(240, 97, 92);}
+.name {display: flex;
+position: relative;
+left: 35%;
+}
+.block {
+    background-color:rgb(176, 177, 169);
+}
+.block1 {
+    background-color:rgb(176, 177, 169); 
+}
+.block2{
+    background-color:rgb(176, 177, 169);
+}
