@@ -1,0 +1,20 @@
+button {
+    border-radius: 20%;
+    background-color: skyblue;
+    transition-duration: 2.2s;
+    transition-delay: 0.2s;
+    transition-property: width height;
+    height: 35px;
+}
+button:hover {
+    background-color: black;
+    color: red;
+}   
+button::before {
+    content: "😀";
+  }
+  button:active::after{
+  content:"-кнопка нажата!" ;
+  width: 250px;
+  height: 60px;
+  }

@@ -1,0 +1,10 @@
+body {background-color: rgb(93,82,87);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+.kilka{width: 200px;
+height: 200px;
+background-color: aqua;
+margin-top: 3vw;
+margin-left: 10vw;}
