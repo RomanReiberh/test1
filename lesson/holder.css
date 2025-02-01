@@ -1,0 +1,49 @@
+#mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    background-image: url(https://i.ytimg.com/vi/SUm1E8NXF84/maxresdefault.jpg);
+}
+#mainForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+.inputRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.buttonRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(245, 184, 111);
+}
+label {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 20px;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(218, 60, 32);
+}
+#pam {
+    width: 30px;
+}
+p {
+    color: rgb(75, 240, 54);
+}

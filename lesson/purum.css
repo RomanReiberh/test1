@@ -1,0 +1,33 @@
+#form{
+width: 300px;
+height: 50px;
+border: solid; border-width: 1px; color: black; 
+position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+#inp{
+background-color: rgb(255, 127, 244);
+margin-top: 10px;
+margin-left: 15px;
+}
+#but{
+background-color: blue;
+margin-top: 10px;
+}
+#tnt{
+border: solid; border-width: 1px; color: black;
+background-color: cornflowerblue;
+margin-top: 15px;
+width: 40vw;
+}
+#textInput {
+    margin-top: 15px;
+}
+#textInput1 {
+    margin-left: 15px;
+}
+#button1 {
+    margin-left: 15px;
+}

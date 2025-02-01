@@ -1,0 +1,29 @@
+#button {
+    width: 500px;
+    height: 350px;
+    background-color: burlywood;
+    font-size: 4rem;
+}
+
+
+#inp {
+    width: 340px;
+    height: 80px;
+    background-color: aquamarine;
+    font-size: 3rem;
+}
+#submit {
+    font-size: 2rem;
+    width: 240px;
+    height: 70px;
+}
+#lesson {
+    width: 240px;
+    height: 70px;
+    font-size: 2rem;
+}
+#clear {
+    width: 240px;
+    height: 70px;
+    font-size: 2rem;
+}
