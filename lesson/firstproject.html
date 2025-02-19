@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="firstproject.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="header"><strong id="first">Среда</strong><strong id="second">3 января</strong></div>
+      <div class="search"><input placeholder="Поиск..."><i class="material-symbols-rounded">search</i></div>
+      <div class="buttons">
+        <button id="but1">Все</button>
+        <button id="but2">Активные</button>
+        <button id="but3">Завершенные</button>
+      </div>
+      <div class="events">
+        <div class="event">
+        </div>
+      </div>
+      <div class="popup" id="popup">
+        <div class="popup-content">
+          <label for="task-name"></label>
+          <input type="text" id="task-name" placeholder="Введите описание задачи">
+          
+          <label for="task-date"></label>
+          <input type="datetime-local" id="task-date">
+          
+          <div class="reminder-container">
+            <label for="task-reminder">Напоминание:</label>
+            <input type="checkbox" id="task-reminder">
+          </div>
+          
+          <div class="popup-buttons">
+            <button id="add-task">Добавить</button>
+            <button id="cancel-task">Отмена</button>
+          </div>
+        </div>
+      </div>
+      <button class="pen">
+        <i class="material-symbols-rounded">edit</i>
+      </button>
+    </div>
+    <script src="firstproject.js"></script>
+  </body>
+</html>

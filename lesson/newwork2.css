@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25%;
+}
+#input {
+width: 14%;
+height: 180px;
+font-size: 5rem;
+background-color: aquamarine;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+line-height: 180px;
+border: 2px solid black ;
+}
+
+#button {
+width: 8%;
+height: 180px;
+font-size: 4rem;
+background-color: burlywood;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#button:hover {
+    background-color: chocolate;
+    font-size: 5rem;
+    width: 9%;
+    height: 190px;
+}
