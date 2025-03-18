@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выезжающее меню</title>
+    <link rel="stylesheet" href="forma.css" type="text/css" link>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Оформление заказа</h2>
+        <form id="orderForm">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="address">Адрес доставки:</label>
+            <input type="text" id="address" name="address" required>
+            <button type="submit">Отправить заказ</button>
+        </form>
+    </div>
+
+    <div id="status-buttons" style="display: none;">
+        <button onclick="createNotification('Заказ оплачен', 'Ваш заказ был оплачен успешно.', 'success')">Заказ оплачен</button>
+        <button onclick="createNotification('Заказ отправлен', 'Ваш заказ был отправлен.', 'warning')">Заказ отправлен</button>
+        <button onclick="createNotification('Заказ получен', 'Ваш заказ был получен.', 'info')">Заказ получен</button>
+    </div>
+
+    <script defer src="forma.js"></script>
+</body>
+</html>

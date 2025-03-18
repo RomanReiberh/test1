@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap'); /* Импорт красивого шрифта */
+
+/* Стили для хедера */
+.header {
+    display: flex;
+    justify-content: space-between; /* Лого слева, ссылки справа */
+    align-items: center;
+    padding: 30px 40px; /* Увеличили внутренние отступы для высоты */
+    background-color: #e3d9fa; /* Цвет фона */
+    height: 3vw; /* Увеличили высоту */
+}
+
+/* Стили для логотипа */
+.logo {
+    font-family: 'Playfair Display', serif; /* Красивый элегантный шрифт */
+    font-size: 36px; /* Увеличенный размер */
+    font-weight: bold;
+    text-transform: uppercase; /* Заглавные буквы */
+    letter-spacing: 3px; /* Увеличенное расстояние между буквами */
+    color: white; /* Цвет текста */
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Тень */
+    background: linear-gradient(90deg, #f87351, #ee8267); /* Градиент (оранжево-красный) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Убираем маркеры списка и делаем горизонтальное меню */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px; /* Увеличили расстояние между ссылками */
+}
+
+/* Стили для ссылок */
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 32px; /* Увеличенный шрифт */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Эффект при наведении */
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Стили для картинки */
+.picture {
+    position: relative; /* Родительский элемент для позиционирования */
+    width: 100vw;
+    height: 100vh; /* Высота блока 100% от экрана */
+    background-image: url('600460c996002f2_upscaled.jpg'); /* Фон */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Затемнение фона */
+.picture::before {
+    content: ""; /* Псевдоэлемент для затемнения фона */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Чёрный цвет с 50% прозрачностью */
+    z-index: 1; /* Слой для фона */
+}
+
+/* Логотип компании слева в углу */
+.logo-company {
+    position: absolute;
+    top: 20px; /* Отступ сверху */
+    left: 20px; /* Отступ слева */
+    width: 120px; /* Размер логотипа */
+    height: 120px; /* Высота логотипа */
+    border: 5px solid #f4a261; /* Граница с оранжевым цветом */
+    border-radius: 10px; /* Округлые углы */
+    overflow: hidden; /* Чтобы изображение не выходило за пределы */
+    z-index: 2; /* Логотип будет поверх затемнённого фона */
+}
+
+/* Логотип как изображение */
+.logo-img {
+    width: 100%; /* Заполняем контейнер */
+    height: 100%; /* Заполняем контейнер */
+    object-fit: cover; /* Для правильного отображения изображения */
+}
+
+/* Контейнер с текстом */
+.overlay {
+    position: relative; /* Позиционируем поверх затемненного фона */
+    color: white;
+    text-shadow: 
+        2px 2px 0px rgba(0, 0, 0, 1), /* Черная тень для верхнего и левого направления */
+        -2px -2px 0px rgba(0, 0, 0, 1), /* Черная тень для нижнего и правого направления */
+        2px -2px 0px rgba(0, 0, 0, 1), /* Черная тень для верхнего и правого направления */
+        -2px 2px 0px rgba(0, 0, 0, 1); /* Черная тень для нижнего и левого направления */
+    max-width: 80%;
+    z-index: 2; /* Текст и кнопки будут поверх фона */
+}
+
+/* Заголовок */
+.overlay h1 {
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+/* Текст */
+.overlay p {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+/* Кнопка */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #da763c;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Эффект при наведении */
+.btn:hover {
+    background-color: #d64531;
+}
+
+/* Основной контент */
+.main {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+/* Информация о компании */
+.info_company {
+    padding: 40px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}

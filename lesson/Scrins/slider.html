@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<link rel="stylesheet" href="slider.css" type="text/css" link>
+</head>
+<body>
+    <div class="main">
+        <h1>DANGER</h1>
+        <h2>Киски-Ириски😏</h2>
+    <div class="slider">
+        <div class="slider-container">
+            <img src="1638394073_81-koshka-top-p-interesnoe-pro-koshek-smeshnoe-85.jpg" alt="1">
+            <img src="1638016550_19-koshka-top-p-samii-spokoinii-kot-23.jpg" alt="2">
+            <img src="images.jpg" alt="3">
+
+        </div>
+        <div class="indicators">
+            <span class="indicator" onclick="goToSlide(0)"></span>
+            <span class="indicator" onclick="goToSlide(1)"></span>
+            <span class="indicator" onclick="goToSlide(2)"></span>
+        </div>
+   </div>
+   
+    <div class="buttons">
+    <button id="left" onclick="prevSlide()">&#8592;</button>
+    <button id="right" onclick="nextSlide()">&#8594;</button>
+    </div>
+    
+    </div>
+<script src="slider.js"></script>
+</body>
+</html>

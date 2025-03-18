@@ -1,0 +1,72 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(241, 194, 92);
+}
+
+.slider {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid black;
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+}
+
+.slider-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 305px;
+    margin-top: 3px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(247, 231, 161);
+}
+
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: rgb(134, 227, 243);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: rgb(71, 104, 250);
+}

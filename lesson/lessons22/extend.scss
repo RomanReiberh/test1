@@ -1,0 +1,25 @@
+%button-common{
+width: 240px;
+height: 48px;
+border-radius: 8px;
+box-shadow: 0px 3px 2px 2px #00000080;
+}
+.button-primary{
+@extend %button-common;
+background-color: green;
+color: white;
+}
+
+.button-secondary{
+@extend %button-common;
+background-color: white;
+color: green;
+}
+
+.button-icon{
+@extend %button-common;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+}

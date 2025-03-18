@@ -1,0 +1,11 @@
+$container-width: 960px;
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  background-color: silver;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

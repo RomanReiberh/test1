@@ -1,0 +1,14 @@
+.mixin {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5019607843);
+  width: 300px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=mixin.css.map */
